@@ -1,0 +1,92 @@
+.home {
+  .left-top {
+    height: 290px;
+    margin-bottom: 20px;
+    .user {
+      display: flex;
+      align-items: center;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ccc;
+      img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-right: 40px;
+      }
+      &info {
+        .name {
+          font-size: 32px;
+          margin-bottom: 10px;
+        }
+        .access {
+          color: #999999;
+        }
+      }
+    }
+    .login-info {
+      p {
+        line-height: 28px;
+        font-size: 14px;
+        color: #999999;
+        span {
+          color: #666666;
+          margin-left: 60px;
+        }
+      }
+    }
+  }
+  .left-bottom {
+    height: 455px;
+  }
+  .right-top {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    .right-top-card {
+      width: 32%;
+      margin-bottom: 20px;
+      font-size: 18px;
+      .el-card__body {
+        i {
+          font-size: 30px;
+          width: 80px;
+          height: 80px;
+          text-align: center;
+          line-height: 80px;
+          color: #fff;
+        }
+        .right-top-card-p {
+          margin-left: 15px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          .num {
+            font-size: 30px;
+            margin-bottom: 10px;
+          }
+          .txt {
+            font-size: 14px;
+            text-align: center;
+            color: #999999;
+          }
+        }
+      }
+    }
+  }
+  .right-middle {
+    height: 280px;
+    margin-bottom: 20px;
+    .el-card__body {
+      height: 100%;
+    }
+  }
+  .right-bottom {
+    display: flex;
+    height: 260px;
+    justify-content: space-between;
+    .el-card {
+      width: 48%;
+    }
+  }
+}
